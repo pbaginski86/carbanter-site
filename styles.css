@@ -1,0 +1,544 @@
+/*
+ * Banter website: one stylesheet for every page.
+ * Controls and text are black, white and gray. The one accent color is guide-sign green,
+ * used only for sign plates, as on a road sign. Dark mode follows the phone or computer.
+ */
+
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --surface: #f3f4f5;
+  --text: #111214;
+  --muted: #4a4e55;
+  --line: #d5d8dc;
+  --strong-line: #111214;
+  --button-bg: #111214;
+  --button-text: #ffffff;
+  --accent: #00663f;
+  --on-accent: #ffffff;
+  --focus: #111214;
+  --radius: 0.5rem;
+  --gutter: 1rem;
+  --measure: 44rem;
+  --wide: 68rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --surface: #222428;
+    --text: #f1f2f3;
+    --muted: #b7bbc1;
+    --line: #3a3d42;
+    --strong-line: #f1f2f3;
+    --button-bg: #f1f2f3;
+    --button-text: #111214;
+    --focus: #f1f2f3;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 1.4rem + 2vw, 3rem);
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.625rem;
+  margin: 0 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.1875rem;
+  margin: 0 0 0.5rem;
+}
+
+p,
+ul,
+ol,
+dl {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--text);
+  overflow-wrap: anywhere;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* The exit arrow marks a link that leaves this website. */
+a.ext::after {
+  content: "\00a0\2197";
+  content: "\00a0\2197" / "";
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--wide);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --gutter: 1.5rem;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -10rem;
+  z-index: 10;
+  padding: 0.6rem 1rem;
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 700;
+  border-radius: var(--radius);
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+/* Sign plate: a green rectangle with a thin white inset border, like a guide sign. */
+.plate {
+  display: inline-block;
+  margin: 0;
+  padding: 0.45em 0.95em;
+  border-radius: 0.45em;
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow:
+    inset 0 0 0 0.2em var(--accent),
+    inset 0 0 0 0.32em var(--on-accent);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+.plate-brand {
+  font-size: 1.375rem;
+  padding: 0.35em 0.85em;
+  letter-spacing: 0.03em;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-block: 0.75rem;
+}
+
+.brand {
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+}
+
+.nav a {
+  display: inline-block;
+  padding-block: 0.65rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.35em;
+}
+
+/* Home page */
+.hero {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding-block: 2.5rem 3rem;
+}
+
+.lead {
+  font-size: 1.1875rem;
+  max-width: var(--measure);
+}
+
+.launch {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.launch li {
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--strong-line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0.6rem 1.25rem;
+  border: 2px solid var(--button-bg);
+  border-radius: var(--radius);
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.button.secondary {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--strong-line);
+}
+
+.small {
+  font-size: 0.9375rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.section {
+  padding-block: 2.75rem;
+}
+
+.section + .section {
+  border-top: 1px solid var(--line);
+}
+
+.intro {
+  max-width: var(--measure);
+}
+
+.cards,
+.points {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+}
+
+.card {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--bg);
+}
+
+.card h3 {
+  margin-top: 0.85rem;
+}
+
+.card > :last-child {
+  margin-bottom: 0;
+}
+
+.points li {
+  padding-left: 1rem;
+  border-left: 4px solid var(--strong-line);
+}
+
+.points strong {
+  display: block;
+}
+
+.price {
+  margin: 0.25rem 0 1rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card li + li {
+  margin-top: 0.35rem;
+}
+
+.note {
+  margin-block: 1.25rem;
+  padding: 1rem 1.25rem;
+  border: 2px solid var(--strong-line);
+  border-radius: var(--radius);
+  max-width: var(--measure);
+}
+
+.note > :first-child {
+  margin-top: 0;
+}
+
+.note > :last-child {
+  margin-bottom: 0;
+}
+
+/* Inner pages */
+.page-head {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding-block: 2rem 2.25rem;
+}
+
+.page-head .plate {
+  margin-bottom: 1rem;
+}
+
+.page-head h1 {
+  margin-bottom: 0.5rem;
+}
+
+.page-head p:last-child {
+  margin-bottom: 0;
+}
+
+.prose {
+  max-width: var(--measure);
+  padding-block: 2rem 1rem;
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  scroll-margin-top: 1rem;
+}
+
+.prose h3 {
+  margin-top: 1.75rem;
+}
+
+.prose li + li {
+  margin-top: 0.4rem;
+}
+
+.toc {
+  margin-bottom: 0.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.toc h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.0625rem;
+}
+
+.toc ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.toc li + li {
+  margin-top: 0.15rem;
+}
+
+.toc a {
+  display: inline-block;
+  padding-block: 0.15rem;
+}
+
+.terms-list dt {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.terms-list dd {
+  margin: 0.25rem 0 0;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq details:first-of-type {
+  border-top: 1px solid var(--line);
+}
+
+.faq summary {
+  padding-block: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.faq details[open] summary {
+  padding-bottom: 0.5rem;
+}
+
+.faq details > :not(summary) {
+  margin-left: 1.15rem;
+}
+
+.faq details > :last-child {
+  margin-bottom: 1.25rem;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 3rem;
+  padding-block: 2rem;
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 0.9375rem;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+}
+
+.footer-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer li a {
+  display: inline-block;
+  padding-block: 0.3rem;
+}
+
+.legal-line {
+  margin-top: 1.5rem;
+  color: var(--muted);
+}
+
+.legal-line p {
+  margin-bottom: 0.25rem;
+}
+
+/* High-contrast modes draw borders where shadows and fills disappear. */
+@media (forced-colors: active) {
+  .plate,
+  .button,
+  .launch li,
+  .card {
+    border: 2px solid CanvasText;
+  }
+}
+
+@media print {
+  .site-header nav,
+  .skip-link,
+  .actions {
+    display: none;
+  }
+
+  a.ext::after {
+    content: "";
+  }
+}
