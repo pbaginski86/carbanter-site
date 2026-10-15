@@ -419,6 +419,60 @@ a.ext::after {
   margin-top: 0.4rem;
 }
 
+/* The status page: one table per standing, readable on a phone (each cell wraps). */
+.status-table {
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.status-table th,
+.status-table td {
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.status-table thead th {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.status-table tbody th {
+  font-weight: 700;
+}
+
+.status-table a {
+  word-break: break-all;
+}
+
+@media (max-width: 40rem) {
+  .status-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .status-table tr {
+    display: block;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .status-table th,
+  .status-table td {
+    display: block;
+    padding: 0.1rem 0;
+    border: 0;
+  }
+}
+
 .toc {
   margin-bottom: 0.5rem;
   padding: 1rem 1.25rem;

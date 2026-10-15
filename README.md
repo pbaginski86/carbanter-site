@@ -14,6 +14,8 @@ step, hosted free on GitHub Pages at carbanter.com.
 | `community.html` | Rules for Banter's own community and messages; reporting and blocking |
 | `support.html`   | Help and common questions                                             |
 | `owners.html`    | For forum owners and clubs                                            |
+| `status.html`    | Community connections: in the feed, page only, not available (generated) |
+| `data/site-list.json` | The export of the server's site list (host, status, risk) the status page is built from |
 | `404.html`       | The page shown for an address that does not exist                     |
 | `styles.css`     | The one stylesheet every page uses (light and dark)                   |
 | `CNAME`          | Tells GitHub Pages the site's address: carbanter.com                  |
@@ -128,6 +130,13 @@ should show the Banter home page with a padlock in the address bar. Tap each lin
 footer. Then tell Claude it is live, so the address can be used in the app stores'
 privacy policy and support fields.
 
+## Where the live copy is
+
+The public repository `pbaginski86/carbanter-site` holds a copy of this folder (first push
+October 14, 2026, commit `02df6a2`). This folder in the Banter repository is the source;
+a change is made here first, then copied to a clone of `carbanter-site` and pushed, and
+GitHub Pages updates the live site within minutes.
+
 ## Updating the site later
 
 Ask Claude for the change. Claude edits the files and, once it can reach the repository,
@@ -165,3 +174,12 @@ Step 5 may differ slightly):
 
 - DNS records for web hosting:
   https://support.squarespace.com/hc/en-us/articles/31119879125645-DNS-records-for-web-hosting
+
+## The status page
+
+`status.html` is written by `npx tsx scripts/build-site-status.ts` (run from the
+repository root) from `registry/` and `data/site-list.json`, with the same rules the app
+uses (`resolveAccess`). After the server's site list changes, refresh the export through the
+Supabase connector (`select host, status, risk from public.site_policy order by host`, written
+to `data/site-list.json` with the date), run the script, and publish. The page never prints
+the server's notes on a site; its reasons are the few neutral sentences in the script.

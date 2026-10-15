@@ -1,0 +1,720 @@
+{
+  "exportedOn": "2026-10-15",
+  "sites": [
+    {
+      "host": "1addicts.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "2addicts.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "4runner6g.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "5post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "6post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "6speedonline.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "7post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "7thmustang.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "911uk.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "992forum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "acurazine.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "alfabb.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "alfaowner.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "allfordmustangs.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "astonmartinforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "astonmartinlife.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "audi-forums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "audiclubna.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "audiworld.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "audizine.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "banter.app",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "benzworld.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "bimmerfest.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "bimmerforums.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "bimmerpost.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "bronco6g.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "cadillacatsforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "cadillacforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "camaro5.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "camaro6.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "camaros.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "camaroz28.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "cayenneforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "challengertalk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "chargerforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "cherokeeforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "chevroletforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "civicxi.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "clublexus.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "corvette8.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "corvetteactioncenter.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "corvetteforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "ctsvowners.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "cybertruckownersclub.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "defender2.net",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "defendersource.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "digitalcorvettes.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "dodgeforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "e46fanatics.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "e90post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "expeditionportal.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "f150forum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "f150online.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "f30post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "ferrari-talk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "ferrarichat.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "ferrarilife.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "ford-trucks.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "fordgt500.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "fordraptorforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "fordtremorforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "ft86club.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "fullsizebronco.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "g35driver.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "giuliaforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "gmforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "gr86.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "gt350.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "gtrforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "gtrlife.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "hdforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "hellcat.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "honda-tech.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "ih8mud.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "integraforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "jaguarforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "jeepforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "jeepgarage.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "jk-forum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "jlwranglerforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "lamborghini-talk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "landroverforums.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "lexusfforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "lotustalk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "ls1tech.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "m3post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "m5board.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "macanforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "maseratilife.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "mbclub.co.uk",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "mbworld.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "mclarenlife.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "midenginecorvetteforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "moderncamaro.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "mustang6g.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "mustang7g.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "mustangforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "my.is",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "my350z.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "nastyz28.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "nissanzclub.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "nsxforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "nsxprime.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "overlandbound.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "pelicanparts.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "pistonheads.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "planet-9.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "porscheclubgb.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "quattroworld.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "r8talk.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "ram-trx.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "raptorforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "reddit.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rennlist.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rivianforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rivianownersforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "rollsroyceforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "rx7club.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rx8club.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "s2ki.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "saac.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "srtforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "stingrayforums.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "supramkv.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "svtperformance.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "tacomaworld.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "taycanevforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "taycanforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "teamspeed.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "teslamotorsclub.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "teslaownersonline.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "theineosforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "themustangsource.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "thirdgen.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "toyota-4runner.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "toyotanation.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "trx-forum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "viperalley.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "wranglerboard.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "wranglerforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "xbimmers.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "yotatech.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "zpost.com",
+      "status": "excluded",
+      "risk": "high"
+    }
+  ]
+}
