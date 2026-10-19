@@ -1,5 +1,5 @@
 {
-  "exportedOn": "2026-10-15",
+  "exportedOn": "2026-10-19",
   "sites": [
     {
       "host": "1addicts.com",
@@ -57,6 +57,31 @@
       "risk": "high"
     },
     {
+      "host": "advrider.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "aircraftforsale.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "airforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "airlinepilotforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "airliners.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "alfabb.com",
       "status": "included",
       "risk": "low"
@@ -68,6 +93,31 @@
     },
     {
       "host": "allfordmustangs.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "alliancervforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "americanadventurist.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "anglersjournal.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "aopa.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "apriliaforum.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -102,9 +152,54 @@
       "risk": "low"
     },
     {
+      "host": "aviationconsumer.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "aviationsafetymagazine.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "avsim.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "avweb.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "backcountrypilot.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "banter.app",
       "status": "included",
       "risk": "low"
+    },
+    {
+      "host": "bassboatcentral.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "bassresource.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "bayarearidersforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "beechtalk.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "benzworld.org",
@@ -127,7 +222,47 @@
       "risk": "high"
     },
     {
+      "host": "bmwmoa.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "boatdesign.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "boatguide.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "boatingmag.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "boatmad.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "bonanza.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "britbike.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "bronco6g.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "bydanjohnson.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -162,6 +297,21 @@
       "risk": "high"
     },
     {
+      "host": "campgroundreviews.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "campingworld.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "casitaforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "cayenneforums.com",
       "status": "page_only",
       "risk": "medium"
@@ -177,6 +327,11 @@
       "risk": "medium"
     },
     {
+      "host": "cheaprvliving.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "cherokeeforum.com",
       "status": "excluded",
       "risk": "high"
@@ -187,14 +342,39 @@
       "risk": "high"
     },
     {
+      "host": "cirruspilots.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "civicxi.com",
       "status": "excluded",
       "risk": "high"
     },
     {
+      "host": "classbforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "classicparker.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "clublexus.com",
       "status": "excluded",
       "risk": "high"
+    },
+    {
+      "host": "clubsearay.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "continuouswave.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "corvette8.org",
@@ -208,6 +388,16 @@
     },
     {
       "host": "corvetteforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "cruisersforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "cruisingworld.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -232,6 +422,11 @@
       "risk": "medium"
     },
     {
+      "host": "diamondaviators.net",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "digitalcorvettes.com",
       "status": "page_only",
       "risk": "medium"
@@ -242,12 +437,37 @@
       "risk": "high"
     },
     {
+      "host": "doityourselfrv.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "ducati.ms",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "ducatiforum.co.uk",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "e46fanatics.com",
       "status": "page_only",
       "risk": "medium"
     },
     {
       "host": "e90post.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "entegraowners.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "escapeforum.org",
       "status": "excluded",
       "risk": "high"
     },
@@ -287,6 +507,31 @@
       "risk": "medium"
     },
     {
+      "host": "fiberglassrv.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "firecrown.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "flightsimulator.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "flyertalk.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "flyingmag.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "ford-trucks.com",
       "status": "excluded",
       "risk": "high"
@@ -302,7 +547,27 @@
       "risk": "low"
     },
     {
+      "host": "fordtransitusaforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "fordtremorforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "foreforums.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "forestriverforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "forestriverownersgroup.com",
       "status": "included",
       "risk": "low"
     },
@@ -317,12 +582,27 @@
       "risk": "medium"
     },
     {
+      "host": "fulltimefamilies.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "g35driver.com",
       "status": "excluded",
       "risk": "high"
     },
     {
+      "host": "generalaviationnews.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "giuliaforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "gl1800riders.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -332,7 +612,22 @@
       "risk": "high"
     },
     {
+      "host": "goodsam.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "gr86.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "greenhulk.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "gsxr.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -352,12 +647,37 @@
       "risk": "medium"
     },
     {
+      "host": "guzzitech.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "harley-davidsonforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "hayabusa.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "hdforums.com",
       "status": "excluded",
       "risk": "high"
     },
     {
+      "host": "heartlandowners.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "hellcat.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "homebuiltairplanes.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -367,9 +687,24 @@
       "risk": "high"
     },
     {
+      "host": "iboats.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "ifr-magazine.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "ih8mud.com",
       "status": "excluded",
       "risk": "high"
+    },
+    {
+      "host": "indianmotorcycles.net",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "integraforums.com",
@@ -377,7 +712,17 @@
       "risk": "high"
     },
     {
+      "host": "irv2.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "jaguarforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "jaycoowners.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -392,6 +737,11 @@
       "risk": "medium"
     },
     {
+      "host": "jetboaters.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "jk-forum.com",
       "status": "excluded",
       "risk": "high"
@@ -402,9 +752,34 @@
       "risk": "high"
     },
     {
+      "host": "keystoneforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "kitplanes.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "ktmforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "ktmtalk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "lamborghini-talk.com",
       "status": "page_only",
       "risk": "medium"
+    },
+    {
+      "host": "lanceownersofamerica.com",
+      "status": "included",
+      "risk": "low"
     },
     {
       "host": "landroverforums.com",
@@ -442,9 +817,24 @@
       "risk": "medium"
     },
     {
+      "host": "marlinmag.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "maseratilife.com",
       "status": "page_only",
       "risk": "medium"
+    },
+    {
+      "host": "mastercraft.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "maxumownersclub.com",
+      "status": "excluded",
+      "risk": "high"
     },
     {
       "host": "mbclub.co.uk",
@@ -468,6 +858,26 @@
     },
     {
       "host": "moderncamaro.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "modernvespa.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "montanaowners.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "mooneyspace.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "motorcycle.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -497,6 +907,16 @@
       "risk": "high"
     },
     {
+      "host": "mygdrv.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "mygrandrv.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "nastyz28.com",
       "status": "page_only",
       "risk": "medium"
@@ -505,6 +925,11 @@
       "host": "nissanzclub.com",
       "status": "excluded",
       "risk": "high"
+    },
+    {
+      "host": "noreast.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "nsxforums.com",
@@ -517,7 +942,32 @@
       "risk": "high"
     },
     {
+      "host": "nyangler.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "offshoreonly.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "oliverowners.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "overlandbound.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "paddling.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "passagemaker.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -527,7 +977,17 @@
       "risk": "high"
     },
     {
+      "host": "pilotsofamerica.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "pistonheads.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "planeandpilotmag.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -537,9 +997,49 @@
       "risk": "medium"
     },
     {
+      "host": "planetnautique.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "pontoonforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "popupportal.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "porscheclubgb.com",
       "status": "included",
       "risk": "low"
+    },
+    {
+      "host": "powerandmotoryacht.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "powerstroke.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "pprune.org",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "prevostcommunity.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "promasterforum.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "quattroworld.com",
@@ -562,6 +1062,11 @@
       "risk": "medium"
     },
     {
+      "host": "rcgroups.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "reddit.com",
       "status": "excluded",
       "risk": "high"
@@ -570,6 +1075,16 @@
       "host": "rennlist.com",
       "status": "excluded",
       "risk": "high"
+    },
+    {
+      "host": "rib.net",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rideapart.com",
+      "status": "included",
+      "risk": "low"
     },
     {
       "host": "rivianforums.com",
@@ -582,9 +1097,64 @@
       "risk": "medium"
     },
     {
+      "host": "roadpass.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "rollsroyceforums.com",
       "status": "page_only",
       "risk": "medium"
+    },
+    {
+      "host": "rv-pro.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "rvbusiness.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "rvforum.net",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rvforums.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "rvillage.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "rvlife.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "rvmiles.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "rvnetwork.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "rvnews.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "rvtravel.com",
+      "status": "included",
+      "risk": "low"
     },
     {
       "host": "rx7club.com",
@@ -607,6 +1177,86 @@
       "risk": "low"
     },
     {
+      "host": "sailblogs.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "sailboatowners.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "sailinganarchy.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "sailingworld.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "sailmagazine.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "sailnet.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "saltwatersportsman.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "screamandfly.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "seadooforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "searayforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "shortwingpipers.org",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "skoolie.net",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "socialknowledge.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "soundingsonline.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "sportfishingmag.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "sprinter-source.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "srtforums.com",
       "status": "page_only",
       "risk": "medium"
@@ -617,7 +1267,17 @@
       "risk": "low"
     },
     {
+      "host": "stripersonline.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "supramkv.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "suzukiforum.com",
       "status": "excluded",
       "risk": "high"
     },
@@ -647,6 +1307,11 @@
       "risk": "high"
     },
     {
+      "host": "tenere700.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "teslamotorsclub.com",
       "status": "excluded",
       "risk": "high"
@@ -657,9 +1322,19 @@
       "risk": "medium"
     },
     {
+      "host": "thehulltruth.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
       "host": "theineosforum.com",
       "status": "included",
       "risk": "low"
+    },
+    {
+      "host": "themalibucrew.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "themustangsource.com",
@@ -667,9 +1342,44 @@
       "risk": "high"
     },
     {
+      "host": "thetriumphforum.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "thirdgen.org",
       "status": "excluded",
       "risk": "high"
+    },
+    {
+      "host": "thorforums.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "thumpertalk.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "tiffinrvnetwork.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "tinboats.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "tnttt.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "totalmotorcycle.com",
+      "status": "page_only",
+      "risk": "medium"
     },
     {
       "host": "toyota-4runner.org",
@@ -682,12 +1392,82 @@
       "risk": "medium"
     },
     {
+      "host": "trawlerforum.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "triumphrat.net",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "truckcampermagazine.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
       "host": "trx-forum.com",
       "status": "included",
       "risk": "low"
     },
     {
+      "host": "twtex.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "v-twinforum.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "vansairforce.net",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "verticalreference.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "vintagehondatwins.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "viperalley.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "wakeboardingmag.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "wakeworld.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "walleyecentral.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "wildguzzi.com",
+      "status": "included",
+      "risk": "low"
+    },
+    {
+      "host": "winnieowners.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "woodenboat.com",
       "status": "page_only",
       "risk": "medium"
     },
@@ -702,7 +1482,27 @@
       "risk": "medium"
     },
     {
+      "host": "x-plane.org",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
       "host": "xbimmers.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "yachtforums.com",
+      "status": "page_only",
+      "risk": "medium"
+    },
+    {
+      "host": "yachtingmagazine.com",
+      "status": "excluded",
+      "risk": "high"
+    },
+    {
+      "host": "yachtsinternational.com",
       "status": "excluded",
       "risk": "high"
     },
