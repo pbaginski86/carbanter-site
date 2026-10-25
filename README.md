@@ -12,6 +12,8 @@ step, hosted free on GitHub Pages at carbanter.com.
 | `privacy.html`   | Privacy policy (effective October 12, 2026)                           |
 | `terms.html`     | Terms of use, including subscriptions                                 |
 | `community.html` | Rules for Banter's own community and messages; reporting and blocking |
+| `moderation.html` | How Banter moderates: screening, reports, response times, appeals    |
+| `child-safety.html` | Child safety standards against CSAE (October 25, 2026); the address given to Google Play's Child Safety Standards declaration |
 | `support.html`   | Help and common questions                                             |
 | `owners.html`    | For forum owners and clubs                                            |
 | `status.html`    | Community connections: in the feed, page only, not available (generated) |
