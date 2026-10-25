@@ -8,7 +8,7 @@ step, hosted free on GitHub Pages at carbanter.com.
 
 | File             | What it is                                                            |
 | ---------------- | --------------------------------------------------------------------- |
-| `index.html`     | Home page: the five kinds, what Banter does, the one membership with two levels (version 1.4), launch dates |
+| `index.html`     | Home page: the five kinds, what Banter does, the one membership with two levels (version 1.4); "Live now", no dates (Patrick, October 25, 2026) |
 | `privacy.html`   | Privacy policy (effective October 12, 2026)                           |
 | `terms.html`     | Terms of use, including subscriptions                                 |
 | `community.html` | Rules for Banter's own community and messages; reporting and blocking |
